@@ -1,6 +1,3 @@
-groovy
-
-CopyEdit
 
 pipeline {
 
@@ -12,7 +9,7 @@ pipeline {
 
             steps {
 
-                git 'https://github.com/your-username/your-repo.git'
+                git url:'https://github.com/abdulsamimmondal/jenkin_repo.git',branch:'main'
 
             }
 
